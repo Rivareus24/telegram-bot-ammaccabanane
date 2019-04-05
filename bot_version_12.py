@@ -176,11 +176,11 @@ def unknown(update, context):
 
 def main():
     with open('telegram.json', 'r') as f:
-        datastore = json.load(f)
+        store = json.load(f)
 
-    ammaccabanane_token = datastore['ammaccabanane']
+    token = store['ammaccabanane']
 
-    updater = Updater(token=ammaccabanane_token, use_context=True)
+    updater = Updater(token=token, use_context=True)
 
     dispatcher = updater.dispatcher
 

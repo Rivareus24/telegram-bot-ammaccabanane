@@ -1,6 +1,9 @@
 from functools import wraps
-from mwt import MWT
+
 from telegram import KeyboardButton, ParseMode
+
+from mwt import MWT
+
 
 LIST_OF_ADMINS = [12345678, 87654321]
 
@@ -16,7 +19,7 @@ def restricted(func):
     def wrapped(update, context, *args, **kwargs):
         user_id = update.effective_user.id
         if user_id not in LIST_OF_ADMINS:
-            print("Unauthorized access denied for {}.".format(user_id))
+            print(f"Unauthorized access denied for {user_id}.")
             return
         return func(update, context, *args, **kwargs)
 
@@ -27,6 +30,7 @@ OFFSET = 127462 - ord('A')
 
 
 def flag(code):
+    """Return the flag (emoticon) of the country"""
     code = code.upper()
     return chr(ord(code[0]) + OFFSET) + chr(ord(code[1]) + OFFSET)
 
@@ -55,7 +59,9 @@ def send_action(action):
     def decorator(func):
         @wraps(func)
         def command_func(update, context, *args, **kwargs):
-            context.bot.send_chat_action(chat_id=update.effective_message.chat_id, action=action)
+            context.bot.send_chat_action(chat_id=update.effective_message.chat_id,
+                                         action=action)
+
             return func(update, context, *args, **kwargs)
 
         return command_func
