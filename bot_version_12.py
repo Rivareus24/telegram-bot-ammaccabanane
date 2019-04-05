@@ -122,23 +122,33 @@ def caps(update, context):
 
 def inline_caps(update, context):
     query = update.inline_query.query
+
     if not query:
         return
+
+    # http
+
     results = list()
-    results.append(
+
+    articles = (
         InlineQueryResultArticle(
-            id=query.upper(),
+            id=1,
             title='Caps',
             input_message_content=InputTextMessageContent(query.upper())
         ),
-    )
-    results.append(
         InlineQueryResultArticle(
-            id=query.lower(),
+            id=2,
             title='Lowers',
             input_message_content=InputTextMessageContent(query.lower())
         ),
+        InlineQueryResultArticle(
+            id=3,
+            title='pippo',
+            input_message_content=InputTextMessageContent(query.lower())
+        )
     )
+    results.extend(articles)
+
     context.bot.answer_inline_query(update.inline_query.id, results)
 
 
