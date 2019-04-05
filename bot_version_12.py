@@ -106,9 +106,13 @@ def test(update, context):
 
 
 def edit_text_method(update, context):
+    keyboard = [[InlineKeyboardButton(text='Change to A', callback_data='A'),
+                 InlineKeyboardButton(text='Change to B', callback_data='B')]]
+
     context.bot.editMessageText(chat_id=update.effective_chat.id,
-                                message_id=update.effective_message.id,
-                                text=f"You clicked {update.callback_query.data}")
+                                message_id=update.effective_message.message_id,
+                                text=f"You clicked {update.callback_query.data}",
+                                reply_markup=InlineKeyboardMarkup(inline_keyboard=keyboard))
 
 
 def echo(update, context):
