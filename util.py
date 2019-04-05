@@ -1,11 +1,14 @@
+import json
 from functools import wraps
 
 from telegram import KeyboardButton, ParseMode
 
 from mwt import MWT
 
+with open('telegram.json', 'r') as f:
+    store = json.load(f)
 
-LIST_OF_ADMINS = [12345678, 87654321]
+LIST_OF_ADMINS = store['users_id']
 
 
 @MWT(timeout=60 * 60)
