@@ -79,8 +79,11 @@ def save_jobs_job(context):
     save_jobs(context.job_queue)
 
 
+# ma se lo metto dentro al metodo, cosa cambia?
 @util.send_action(ChatAction.TYPING)
 def start(update, context):
+
+    # Prende i veri admin del bot
     if update.message.from_user.id in util.get_admin_ids(context.bot, update.message.chat_id):
         print("You are an admin")  # admin only
 
@@ -97,6 +100,7 @@ def start(update, context):
 
 
 def test(update, context):
+    """Apre una keyboard inline per chiamare edit_text_method"""
     keyboard = [[InlineKeyboardButton(text='Change to A', callback_data='A'),
                  InlineKeyboardButton(text='Change to B', callback_data='B')]]
 
@@ -106,6 +110,7 @@ def test(update, context):
 
 
 def edit_text_method(update, context):
+    """Cambia il testo del messaggio sopra"""
     keyboard = [[InlineKeyboardButton(text='Change to A', callback_data='A'),
                  InlineKeyboardButton(text='Change to B', callback_data='B')]]
 
@@ -120,6 +125,7 @@ def echo(update, context):
 
 
 def caps(update, context):
+    """Prende gli args e li restituisce in maiuscolo"""
     text_caps = ' '.join(context.args).upper()
     update.message.reply_text(text=text_caps)
 
@@ -157,6 +163,7 @@ def inline_caps(update, context):
 
 
 def unknown(update, context):
+    """Funzione in util che ti crea una tastiera dinamicamente"""
     button_list = [
         InlineKeyboardButton("col1", callback_data=...),
         InlineKeyboardButton("col2", callback_data=...),
