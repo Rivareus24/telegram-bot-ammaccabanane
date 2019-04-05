@@ -124,6 +124,7 @@ def echo(update, context):
     update.message.reply_text(text=f"You wrote: [{update.message.text}]")
 
 
+@util.restricted
 def caps(update, context):
     """Prende gli args e li restituisce in maiuscolo"""
     text_caps = ' '.join(context.args).upper()

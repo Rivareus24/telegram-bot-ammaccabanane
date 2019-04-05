@@ -17,6 +17,7 @@ def get_admin_ids(bot, chat_id):
     return [admin.user.id for admin in bot.get_chat_administrators(chat_id)]
 
 
+@MWT(timeout=60 * 60)
 def restricted(func):
     @wraps(func)
     def wrapped(update, context, *args, **kwargs):
