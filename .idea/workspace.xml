@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/bot_version_12.py" line="187" />
+    <bookmark url="file://$PROJECT_DIR$/bot_version_12.py" line="193" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de2e492f-d88a-41f4-a033-06cb5444b22a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot_version_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_version_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton_bot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,50 +37,38 @@
     <favorites_list name="telegram-bot-ammaccabanane" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot_version_12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="179" column="13" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+            <state relative-caret-position="1808">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
               <folding>
-                <element signature="e#669#1285#0" />
-                <element signature="e#731#1285#0" />
-                <element signature="e#755#1285#0" />
-                <element signature="e#1311#2062#0" />
-                <element signature="e#1438#2062#0" />
-                <element signature="e#1481#2062#0" />
-                <element signature="e#2097#2125#0" />
-                <element signature="e#2246#2890#0" />
-                <element signature="e#2924#3366#0" />
-                <element signature="e#3000#3141#0" />
-                <element signature="e#3001#3140#0" />
-                <element signature="e#3412#3932#0" />
-                <element signature="e#3469#3610#0" />
-                <element signature="e#3470#3609#0" />
-                <element signature="e#3966#4035#0" />
-                <element signature="e#4086#4230#0" />
-                <element signature="e#4271#4983#0" />
-                <element signature="e#4399#4878#0" />
-                <element signature="e#5020#5470#0" />
-                <element signature="e#5100#5278#0" />
-                <element signature="e#5927#5951#0" />
-                <element signature="e#6487#6650#0" />
-                <element signature="e#6694#6791#0" />
-                <element signature="e#7188#7461#0" />
-                <element signature="e#7200#7461#1" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convPersbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="231">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#778#792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conversationbot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +77,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegram.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="16">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timerbot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton_bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1568">
+              <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +114,8 @@
       <find>Putney - Station</find>
       <find>time</find>
       <find>timeout</find>
+      <find>new</find>
+      <find>arg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,11 +129,15 @@
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/result.txt" />
         <option value="$PROJECT_DIR$/limo.py" />
-        <option value="$PROJECT_DIR$/skeleton_bot.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/telegram.json" />
         <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/skeleton_bot.py" />
+        <option value="$PROJECT_DIR$/timerbot.py" />
         <option value="$PROJECT_DIR$/bot_version_12.py" />
+        <option value="$PROJECT_DIR$/conversationbot.py" />
+        <option value="$PROJECT_DIR$/convers2bot.py" />
+        <option value="$PROJECT_DIR$/convPersbot.py" />
       </list>
     </option>
   </component>
@@ -292,12 +308,14 @@
       <workItem from="1554242857510" duration="11000" />
       <workItem from="1554298820678" duration="229000" />
       <workItem from="1554387029532" duration="6849000" />
-      <workItem from="1554445563923" duration="281000" />
+      <workItem from="1554445563923" duration="543000" />
+      <workItem from="1554446380499" duration="78000" />
+      <workItem from="1555081280708" duration="4392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54369000" />
+    <option name="totallyTimeSpent" value="59101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,19 +327,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="-8" width="2498" height="1456" extended-state="6" />
+    <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.18990976" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" weight="0.19322917" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.18997175" />
       <window_info id="Favorites" order="2" sideWeight="0.5010482" side_tool="true" weight="0.18997175" />
       <window_info anchor="bottom" id="Regex Tester" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32914045" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.39252338" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.38836968" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32809225" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.35220125" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.18238993" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32809225" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="9" />
@@ -356,7 +374,7 @@
     <SUITE FILE_PATH="coverage/telegram_bot_ammaccabanane$Limo.coverage" NAME="Limo Coverage Results" MODIFIED="1554387714057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bot_test$bot_version_12.coverage" NAME="bot_version_12 Coverage Results" MODIFIED="1553790924665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bot_test$Limo.coverage" NAME="Limo Coverage Results" MODIFIED="1553795832576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/telegram_bot_ammaccabanane$bot_version_12.coverage" NAME="bot_version_12 Coverage Results" MODIFIED="1554445920998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/telegram_bot_ammaccabanane$bot_version_12.coverage" NAME="bot_version_12 Coverage Results" MODIFIED="1555083294206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -436,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mwt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -453,53 +461,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pycparser/_c_ast.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convers2bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="127" column="25" lean-forward="true" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+          <folding>
+            <element signature="e#778#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convPersbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#778#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conversationbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/telegram.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="16">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timerbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bot_version_12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="179" column="13" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+        <state relative-caret-position="1808">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
-            <element signature="e#669#1285#0" />
-            <element signature="e#731#1285#0" />
-            <element signature="e#755#1285#0" />
-            <element signature="e#1311#2062#0" />
-            <element signature="e#1438#2062#0" />
-            <element signature="e#1481#2062#0" />
-            <element signature="e#2097#2125#0" />
-            <element signature="e#2246#2890#0" />
-            <element signature="e#2924#3366#0" />
-            <element signature="e#3000#3141#0" />
-            <element signature="e#3001#3140#0" />
-            <element signature="e#3412#3932#0" />
-            <element signature="e#3469#3610#0" />
-            <element signature="e#3470#3609#0" />
-            <element signature="e#3966#4035#0" />
-            <element signature="e#4086#4230#0" />
-            <element signature="e#4271#4983#0" />
-            <element signature="e#4399#4878#0" />
-            <element signature="e#5020#5470#0" />
-            <element signature="e#5100#5278#0" />
-            <element signature="e#5927#5951#0" />
-            <element signature="e#6487#6650#0" />
-            <element signature="e#6694#6791#0" />
-            <element signature="e#7188#7461#0" />
-            <element signature="e#7200#7461#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

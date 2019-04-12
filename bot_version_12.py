@@ -1,9 +1,9 @@
+import datetime
 import json
 import logging
 import os
 import pickle
 import sys
-from datetime import timedelta
 from threading import Event, Thread
 from time import time
 
@@ -16,6 +16,8 @@ import util
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
+
+logger = logging.getLogger(__name__)
 
 JOBS_PICKLE = 'job_tuples.pickle'
 
@@ -82,7 +84,6 @@ def save_jobs_job(context):
 # ma se lo metto dentro al metodo, cosa cambia?
 @util.send_action(ChatAction.TYPING)
 def start(update, context):
-
     # Prende i veri admin del bot
     if update.message.from_user.id in util.get_admin_ids(context.bot, update.message.chat_id):
         print("You are an admin")  # admin only
@@ -175,6 +176,11 @@ def unknown(update, context):
     # reply_markup=reply_markup)
 
 
+def error(update, context):
+    """Log Errors caused by Updates."""
+    logger.warning('Update "%s" caused error "%s"', update, context.error)
+
+
 def main():
     with open('telegram.json', 'r') as f:
         store = json.load(f)
@@ -188,7 +194,7 @@ def main():
     job_queue = updater.job_queue
 
     # Periodically save jobs
-    job_queue.run_repeating(save_jobs_job, timedelta(minutes=1))
+    job_queue.run_repeating(save_jobs_job, datetime.timedelta(minutes=1))
 
     try:
         load_jobs(job_queue)
@@ -207,6 +213,8 @@ def main():
     dispatcher.add_handler(CommandHandler('caps', caps))
 
     dispatcher.add_handler(InlineQueryHandler(inline_caps))
+
+    dispatcher.add_error_handler(error)
 
     """questi due handler li mette nel main, ma non funzionano"""
 
